@@ -1,0 +1,57 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orangered;
+    color: white;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 25%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.card__title {
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card__type {
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+}
